@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" type='text/css'>
+  </head>
+  <body>
+    <form action="customerBackend.php" method="post" id="form">
+      <p>Custom Information</p>
+      <div class="container">
+        Username: <input type="email" name="username" id="username"><br>
+        Password: <input type="password" name="password" id="password"><br>
+      </div>
+      <p>Item Sell</p>
+      <div class="container">
+        Apple: $7.00/ea &nbsp&nbsp&nbsp&nbsp Quantities:<input type="number" name="apple" id="apple"><br>
+        Milk: $15.00/ea &nbsp&nbsp&nbsp&nbsp Quantities:<input type="number" name="milk" id="milk"><br>
+        Cake: $35.00/ea &nbsp&nbsp&nbsp&nbsp Quantities:<input type="number" name="cake" id="cake"><br>
+      </div>
+      <p>Shipping Option</p>
+      <div class="container">
+        <input type="radio" id="Seven-day shipping" name="shipping" value="Seven-day shipping" required>
+        <label for="Seven-day shipping">Free - Seven-day shipping<br>
+        <input type="radio" id="Three-day shipping" name="shipping" value="Three-day shipping" required>
+        <label for="Three-day shipping">$5.00 - Three-day shipping<br>
+        <input type="radio" id="One day shipping" name="shipping" value="One day shipping" required>
+        <label for="One day shipping">$50.00 - One day shipping<br>
+      </div>
+      <input type="submit">
+      <input type="reset">
+      <script src = "formChecker.js"></script>
+    </form>
+  </body>
+</html>
+
