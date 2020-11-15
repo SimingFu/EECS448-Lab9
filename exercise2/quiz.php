@@ -77,7 +77,7 @@
     echo "Correct answer: Washington, D.C.<br>";
   }
   else {
-    echo "Question 3: What was the capital of UAS?<br>";
+    echo "Question 3: What was the capital of USA?<br>";
     echo "You answered: <br>";
     echo "Correct answer: Washington, D.C.<br>";
   }
