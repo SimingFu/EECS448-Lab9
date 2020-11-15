@@ -22,6 +22,11 @@
     echo "You answered: " .$_POST["capca"]. "<br>";
     echo "Correct answer: Ottawa<br>";
   }
+  else {
+    echo "Question 1: What was the capital of Canada?<br>";
+    echo "You answered: <br>";
+    echo "Correct answer: Ottawa<br>";
+  }
   echo "<br>";
   if ($_POST["capau"] == "Canberra"){
     $score +=20;
@@ -43,6 +48,11 @@
     echo "Question 2: What was the capital of Australia?<br>";
     echo "You answered: " .$_POST["capau"]. "<br>";
     echo "Correct answer: Canberra<br>";
+  }
+  else {
+    echo "Question 2: What was the capital of Australia?<br>";
+    echo "You answered: <br>";
+    echo "Correct answer: Ottawa<br>";
   }
   echo "<br>";
   if ($_POST["capua"] == "DC"){
@@ -66,6 +76,11 @@
     echo "You answered: " .$_POST["capua"]. "<br>";
     echo "Correct answer: Washington, D.C.<br>";
   }
+  else {
+    echo "Question 3: What was the capital of UAS?<br>";
+    echo "You answered: <br>";
+    echo "Correct answer: Ottawa<br>";
+  }
   echo "<br>";
   if ($_POST["capch"] == "Beijing"){
     $score +=20;
@@ -88,6 +103,11 @@
     echo "You answered: " .$_POST["capch"]. "<br>";
     echo "Correct answer: Beijing<br>";
   }
+  else {
+    echo "Question 4: What was the capital of China?<br>";
+    echo "You answered: <br>";
+    echo "Correct answer: Ottawa<br>";
+  }
   echo "<br>";
   if ($_POST["capsa"] == "Madrid"){
     $score +=20;
@@ -109,6 +129,11 @@
     echo "Question 5: What was the capital of Spain?<br>";
     echo "You answered: " .$_POST["capsa"]. "<br>";
     echo "Correct answer: Madrid<br>";
+  }
+  else {
+    echo "Question 5: What was the capital of Spain?<br>";
+    echo "You answered: <br>";
+    echo "Correct answer: Ottawa<br>";
   }
   echo "<br>";
   echo "Total Score: " . $score  . "%<br>";
