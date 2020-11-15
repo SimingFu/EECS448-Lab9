@@ -62,17 +62,17 @@
     echo "Correct answer: Washington, D.C.<br>";
   }
   else if ($_POST["capua"] == "NYC"){
-    echo "Question 3: What was the capital of UAS?<br>";
+    echo "Question 3: What was the capital of USA?<br>";
     echo "You answered: New York City<br>";
     echo "Correct answer: Washington, D.C.<br>";
   }
   else if ($_POST["capua"] == "LA"){
-    echo "Question 3: What was the capital of UAS?<br>";
+    echo "Question 3: What was the capital of USA?<br>";
     echo "You answered: Los Angeles<br>";
     echo "Correct answer: Washington, D.C.<br>";
   }
   else if ($_POST["capua"] == "Chicago"){
-    echo "Question 3: What was the capital of UAS?<br>";
+    echo "Question 3: What was the capital of USA?<br>";
     echo "You answered: " .$_POST["capua"]. "<br>";
     echo "Correct answer: Washington, D.C.<br>";
   }
